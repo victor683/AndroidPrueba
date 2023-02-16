@@ -26,7 +26,6 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Tabla"
             android:text="Generar" />
 
         <EditText
@@ -35,6 +34,7 @@
             android:layout_height="379dp"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine" />
+            android:inputType="textMultiLine"
+            android:text="Ingrese un numero" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

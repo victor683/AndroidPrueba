@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+    //Declaramnos los nombres de variables que se utilizaran
     EditText edtValor, edtResultado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
